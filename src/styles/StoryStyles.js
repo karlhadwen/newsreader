@@ -48,5 +48,5 @@ export const StoryMeta = styled.div`
 
 export const StoryMetaElement = styled.span`
   font-weight: bold;
-  color: ${props => props.color || 'red'};
+  color: ${props => props.color};
 `;
